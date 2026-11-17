@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+server.db
+*.db
+.gradle/
+.idea/
+build/
+local.properties
+*.iml
+.DS_Store
+
+# Android build outputs
+**/build/
+**/.cxx/
+captures/
+.externalNativeBuild/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
